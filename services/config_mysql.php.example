@@ -1,0 +1,21 @@
+<?php
+//Connection param for the temp MariaDB Database	
+	try {
+// The MariaDB IP
+	    $hostname = "localhost";
+// The database to connect
+	    $dbname = "idem";
+// The user to connect
+	    $user = "<your-username>";
+// The user password
+	    $pass = "<your-password>";
+// The connection 
+	    $mysqlConn = new PDO ("mysql:host=$hostname;dbname=$dbname", $user, $pass);
+	    $mysqlConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+	} catch (PDOException $e) {
+	    echo "Error: " . $e->getMessage();
+	    die();
+	}
+
+?>

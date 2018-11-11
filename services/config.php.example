@@ -1,0 +1,27 @@
+<?php 
+// Insert the connection param for the Multichain Node
+
+// The Multichain node ip address
+	$host="localhost";
+
+// The Multichain rpc node port
+	$port="2672";
+
+// The Multichain node rpc username
+	$username="<your-rpc-username>";
+
+// The Multichain node rpc user password
+	$password="<your-rpc-password>";
+
+// The Protocol to connect to rpc ssl or blank	 	
+//	$proto="";
+
+// The path of the CA cert
+//	$CACertificate="";
+
+// Show some error
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+
+?>
