@@ -57,7 +57,7 @@ class Multichain
         $this->port          = $port;
         $this->url           = $url;
         // Set some defaults
-        $this->proto         = 'http';
+        $this->proto         = 'https';
         $this->CACertificate = null;
     }
     /**
