@@ -5,7 +5,7 @@
 	$host="localhost";
 
 // The Multichain rpc node port
-	$port="2672";
+	$port="<your-rpc-port>";
 
 // The Multichain node rpc username
 	$username="<your-rpc-username>";
@@ -13,7 +13,7 @@
 // The Multichain node rpc user password
 	$password="<your-rpc-password>";
 
-// The Protocol to connect to rpc ssl or blank	 	
+// The Protocol to connect to rpc ssl or blank default ssl	 	
 //	$proto="";
 
 // The path of the CA cert
